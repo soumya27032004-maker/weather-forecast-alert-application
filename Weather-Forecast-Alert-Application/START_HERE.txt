@@ -1,0 +1,85 @@
+============================================================
+  WEATHER FORECAST & ALERT APPLICATION - START HERE!
+============================================================
+
+YOU DO NOT NEED A WEATHER API KEY.
+
+STEP 1 - DOWNLOAD AND UNZIP
+  1. Download Weather-Forecast-Alert-Application.zip.
+  2. Find the ZIP in Downloads.
+  3. Right-click ZIP -> Extract All -> Extract.
+  4. Double-click the new project folder.
+
+STEP 2 - INSTALL PYTHON (ONCE)
+  1. Open https://www.python.org/downloads/ in Chrome.
+  2. Click Download Python.
+  3. Start the downloaded Python installer.
+  4. IMPORTANT: tick the box "Add Python to PATH".
+  5. Click "Install Now".
+  6. Close any old Command Prompt window.
+  7. If installation isn't recognised, restart Windows.
+  8. If Windows opens the Microsoft Store when typing python,
+     use "py" instead, or turn off python.exe and python3.exe
+     aliases in Settings > Apps > Advanced app settings >
+     App execution aliases.
+
+STEP 3 - OPEN THE WEATHER APP (EASIEST)
+  1. Open the EXTRACTED project folder (NOT the ZIP).
+  2. Find the file named RUN_APP_WINDOWS.bat.
+     Windows may hide the ".bat" ending; look for RUN_APP_WINDOWS.
+  3. Double-click it.
+  4. A black window will open automatically.
+  5. The first run installs required Python packages. Internet
+     is needed for this FIRST installation.
+  6. Chrome will open the weather application, usually at
+     http://localhost:8501
+  7. Select "Offline simulation" and click "Check weather".
+  8. Choose "Live Open-Meteo" if you want REAL forecast-model data;
+     internet is required for live mode.
+  9. Keep the black window OPEN while the app is running.
+ 10. To stop, close that window or press Ctrl+C in it.
+
+STEP 4 - OPTIONAL: TERMINAL / COMMANDS
+  For a quick text-only demo: double-click RUN_DEMO_WINDOWS.bat.
+  To run the API service: double-click RUN_API_WINDOWS.bat AFTER
+  first running RUN_APP_WINDOWS.bat.
+  API test site: http://127.0.0.1:8000/docs
+
+STEP 5 - SAVE REPORTS
+  In the website, scroll down and use the DOWNLOAD buttons.
+  In the text-only demo, generated files go to:
+    reports/ -> text reports
+    outputs/ -> CSV and JSON
+    images/  -> a chart picture
+
+STEP 6 - UPLOAD ON GITHUB (EASY BROWSER METHOD)
+  1. Sign in at https://github.com
+  2. Click the + at top right -> New repository.
+  3. Name: weather-forecast-alert-application
+  4. Choose Public. Click Create repository.
+  5. Click "uploading an existing file".
+  6. Drag the project files/folders from the extracted project
+     folder into the upload page. GitHub website may not accept
+     a folder directly in all browsers; see docs/GITHUB_GUIDE.md
+     for the reliable GitHub Desktop approach.
+  7. Don't upload .env, .venv, or weather.sqlite.
+  8. Write commit message "Initial weather app project".
+  9. Click Commit changes.
+
+NOTE: "Offline simulation" uses invented weather conditions.
+It is ideal for demonstrating code, but it is NOT an actual forecast.
+Generated alerts are educational thresholds, NOT government warnings.
+
+WHAT TO TRY IF SOMETHING FAILS
+  - "Python was not found": install Python and check Add to PATH.
+  - "No module named ...": double-click RUN_APP_WINDOWS.bat again.
+  - "City not found": try Delhi, Mumbai, or Kolkata in live mode.
+  - No internet: choose Offline simulation.
+  - Browser didn't open: type http://localhost:8501 into Chrome.
+  - API browser didn't open: type http://127.0.0.1:8000/docs.
+  - Run file is inside ZIP: use Extract All first.
+  - SmartScreen blocks an unfamiliar batch file: you can instead
+    open Command Prompt in the folder and use the manual commands
+    from README.md. Review any downloaded scripts before running.
+
+============================================================

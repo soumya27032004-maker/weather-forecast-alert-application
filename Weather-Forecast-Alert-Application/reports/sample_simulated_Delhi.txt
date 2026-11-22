@@ -1,0 +1,32 @@
+WEATHER FORECAST & ALERT REPORT
+SIMULATED DATA - NOT A REAL FORECAST
+=======================================================
+City: Delhi (Demo)
+Provider: simulation
+Local observation time: 2026-11-23T00:00
+Last fetched (UTC): 2026-11-22T19:05:18.018068+00:00
+Temperature: 35.5 °C
+Humidity: 91%
+Wind: 15 km/h
+US AQI: 175
+
+ALERTS
+[WARNING] Rain likely within 12 hours: Carry an umbrella and check the latest local forecast.
+[CRITICAL] High temperature expected: A daily maximum may reach 41.0 °C within two days; take heat precautions.
+[INFO] High humidity: Current relative humidity is 91%.
+[WARNING] Strong wind gusts possible: Gusts may reach 66.0 km/h within 24 hours.
+[WARNING] High UV exposure: Today's modelled UV index may reach 9.0.
+[CRITICAL] Thunderstorms possible: A thunderstorm weather code occurs in the next 24-hour forecast.
+[WARNING] Unhealthy air quality: Modelled US AQI is 175; consider reducing outdoor exposure.
+
+NEXT SEVEN DAYS
+2026-11-23: 26–41 °C, rain 16 mm
+2026-11-24: 27–41 °C, rain 5 mm
+2026-11-25: 26–34 °C, rain 0 mm
+2026-11-26: 27–35 °C, rain 0 mm
+2026-11-27: 26–34 °C, rain 0 mm
+2026-11-28: 27–35 °C, rain 0 mm
+2026-11-29: 26–34 °C, rain 0 mm
+
+Educational threshold alerts only, not official weather warnings.
+Live provider: Open-Meteo (https://open-meteo.com); air quality model: CAMS via Open-Meteo.

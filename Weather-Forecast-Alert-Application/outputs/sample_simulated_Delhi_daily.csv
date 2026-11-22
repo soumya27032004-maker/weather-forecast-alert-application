@@ -1,0 +1,8 @@
+﻿date,temp_max_c,temp_min_c,precipitation_sum_mm,precipitation_probability_max_pct,wind_speed_max_kmh,uv_index_max,weather_code
+2026-11-23,41,26,16,85,34,9,95
+2026-11-24,41,27,5,30,18,6,2
+2026-11-25,34,26,0,30,18,6,2
+2026-11-26,35,27,0,30,18,6,2
+2026-11-27,34,26,0,30,18,6,2
+2026-11-28,35,27,0,30,18,6,2
+2026-11-29,34,26,0,30,18,6,2

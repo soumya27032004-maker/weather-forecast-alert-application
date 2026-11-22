@@ -1,0 +1,15 @@
+{
+  "dataset_type": "SIMULATION_NOT_REAL_WEATHER",
+  "city": "Delhi",
+  "purpose": "Demonstrate alert-engine behavior without requiring access to a weather API",
+  "scenario": {
+    "rain_probability_percent": 82,
+    "max_daily_temperature_celsius": 41,
+    "current_humidity_percent": 91,
+    "forecast_wind_gust_kmh": 66,
+    "max_uv_index": 9,
+    "us_aqi": 175,
+    "thunderstorm_wmo_code": 95
+  },
+  "notes": "All numbers are deliberately invented to test application conditions. Current or future real weather must not be inferred from this scenario."
+}
